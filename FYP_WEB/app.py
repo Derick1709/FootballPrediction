@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import joblib
+from sklearn.ensemble import RandomForestClassifier
 
 st.set_page_config(page_title="Football Prediction",
                    page_icon=":soccer:", layout="wide")
