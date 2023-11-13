@@ -1,6 +1,5 @@
-streamlit-dev
-streamlit_option_menu-dev
-BeautifulSoup-dev
-pandas-dev
-joblib-dev
-numpy-dev
+streamlit
+streamlit_option_menu
+pandas
+joblib
+
