@@ -4,4 +4,3 @@ pandas
 joblib
 numpy
 scikit-learn
-RandomForestClassifier
