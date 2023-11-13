@@ -6,10 +6,8 @@ import joblib
 st.set_page_config(page_title="Football Prediction",
                    page_icon=":soccer:", layout="wide")
 
-model_directory = 'FYP_WEB/best_rf_model.joblib'
-
 # Load saved model
-loaded_model = joblib.load(model_directory)
+loaded_model = joblib.load('./FYP_WEB/best_rf_model.joblib')
 
 options = ["Johor Darul Ta'zim", "Kedah Darul Aman", "Kelantan", "Kelantan United", "Kuala Lumpur City", "Kuching City",
            "Negeri Sembilan", "PDRM", "Penang", "Perak", "Sabah", "Selangor", "Sri Pahang", "Terengganu"]
