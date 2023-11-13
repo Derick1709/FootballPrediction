@@ -6,7 +6,7 @@ import joblib
 st.set_page_config(page_title="Football Prediction",
                    page_icon=":soccer:", layout="wide")
 
-model_directory = './best_rf_model.joblib'
+model_directory = './FYP_WEB/best_rf_model.joblib'
 
 # Load saved model
 loaded_model = joblib.load(model_directory)
